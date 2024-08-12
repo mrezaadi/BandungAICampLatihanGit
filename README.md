@@ -18,8 +18,8 @@ Repository ini bertujuan untuk:
 
 Untuk pertanyaan atau saran, kamu bisa menghubungi saya melalui:
 
-- **Email**: [email@example.com](mailto:muhammadrezaadi.work@gmail.com)
-- **LinkedIn**: [linkedin.com/in/username](https://linkedin.com/in/rezaadinugraha)
+- **Email**: muhammadrezaadi.work@gmail.com](mailto:muhammadrezaadi.work@gmail.com)
+- **LinkedIn**: [Muhammad Reza Adi Nugraha](https://linkedin.com/in/rezaadinugraha)
 
 Terima kasih telah mengunjungi repository ini. Mari belajar dan berkembang bersama dalam dunia Web Development dengan AI! 🚀
 
