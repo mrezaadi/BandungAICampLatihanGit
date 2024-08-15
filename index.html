@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Evaluasi HTML Dasar</title>
+  </head>
+  <body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Muhammad Reza Adi Nugraha (48) - Bandung AI Camp</p>
+    <hr />
+    <p></p>
+    Pada halaman ini akan dilakukan eksplorasi dasar-dasar penggunaan HTML mulai dari pengelolaan teks, hyperlink, gambar, daftar, tabel, dan membuat formulir.
+
+    <h2>Pengelolaan Teks</h2>
+    <p>Halo nama saya <em>Muhammad Reza Adi Nugraha</em>. Saya <strong>Fresh Graduate</strong> dari Telkom University dari jurusan S1 Informatika. Salah satu quote yang mempengaruhi hidup saya adalah : <blockquote>Start Over, Start Late, Start Slow, Start Again, Just Start.</blockquote></p>
+    <hr />
+
+    <h2>Hyperlink dan Gambar</h2>
+    <p>Berikut merupakan Hyperlink yang menghubungkan langsung ke URL LinkedIn saya <a href="https://www.linkedin.com/in/rezaadinugraha/">Muhammad Reza Adi Nugraha</a></p>
+
+    <p>Berikut merupakan gambar yang diambil dari lokal direktori :</p>
+    <img src="C:\bandungaicamp\tugas5\img\linkedin_logo.png" alt="Logo LinkedIn" width="100" height="100" />
+
+    <h2>Membuat Daftar</h2>
+    <p>Berikut merupakan Tech Stack saya:</p>
+    <ul>
+      <li>Python</li>
+      <li>Go</li>
+      <li>Java</li>
+      <li>Power BI</li>
+      <li>Tableau</li>
+      <li>Apache Airflow</li>
+      <li>MySQL</li>
+      <li>PostgreSQL</li>
+      <li>Talend Open Data Studio</li>
+      <li>Google Big Query</li>
+    </ul>
+    <p>Berikut merupakan proyek terbaru saya:</p>
+    <ol>
+      <li>Depression Expression Classification</li>
+      <li>Employment Mobile Application</li>
+      <li>Employment Web Application</li>
+      <li>Sparepart Stock Dashboard</li>
+      <li>Gross Income Prediction on Supermarket Sales</li>
+    </ol>
+
+    <p>Berdasarkan hal-hal tersebut berikut beberapa target pencapaian saya kedepan:</p>
+    <ol>
+        <li>Bekerja sebagai Data Engineer</li>
+        <li>Freelance sebagai Machine Learning Engineer</li>
+        <li>Membuat website portofolio pridbadi</li>
+    </ol>
+    
+    <p>Saya juga memiliki beberapa aktivitas yang saya sukai, berikut aktivitasnya.</p>
+    <ul>
+        <li>Olahraga</li>
+        <li>Mendengarkan lagu</li>
+        <li>Bermain storyline video game</li>
+    </ul>
+
+
+
+    <h2>Membuat Tabel</h2>
+    <table border="1">
+      <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Kota</th>
+      </tr>
+      <tr>
+        <td>Asep Surasep</td>
+        <td>45</td>
+        <td>Bandung</td>
+      </tr>
+      <tr>
+        <td>Manuel Simanjuntak</td>
+        <td>23</td>
+        <td>Medan</td>
+      </tr>
+      <tr>
+        <td>Antonio Belotti</td>
+        <td>28</td>
+        <td>Turin</td>
+      </tr>
+    </table>
+
+    <h2>Membuat Formulir</h2>
+    <form action="#" method="post">
+      <label for="fullname">Nama Lengkap:</label>
+      <input type="text" id="fullname" name="fullname" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label>Jenis Kelamin:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Pria</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Wanita</label><br /><br />
+
+      <label for="city">Kota Tempat Tinggal:</label>
+      <select id="city" name="city">
+        <option value="bandung">Bandung</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="surabaya">Surabaya</option>
+        <option value="yogyakarta">Yogyakarta</option></select
+      ><br /><br />
+
+      <input type="checkbox" id="terms" name="terms" required />
+      <label for="terms">Saya setuju dengan syarat dan ketentuan</label><br /><br />
+
+      <label for="message">Pesan atau Komentar:</label><br />
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br /><br />
+
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
