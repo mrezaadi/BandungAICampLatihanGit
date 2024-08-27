@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Dasar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script>
+      document.getElementById("contactForm").addEventListener("submit", function (event) {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+        if (!name || !email || !message) {
+          alert("Semua field harus diisi!");
+          event.preventDefault();
+        } else if (!emailPattern.test(email)) {
+          alert("Masukkan email yang valid!");
+          event.preventDefault();
+        }
+      });
+    </script>
+
+    <header>
+      <h1>Bandung AI Camp - Muhammad Reza Adi Nugraha</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Selamat Datang di Website Kami</h2>
+        <p>
+          Website ini dibuat untuk keperluan eksplorasi pengembangan web dan kecerdasan buatan (AI) bersama Bandung AI Camp dan Sanber Code. Di sini, Anda akan menemukan berbagai contoh proyek dan pembelajaran yang berhubungan dengan web
+          development dan AI.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
