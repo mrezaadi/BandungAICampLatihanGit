@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasar Kita</title>
+    <link rel="icon" href="..\img\logo.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="..\img\logo.png" alt="Logo Pasar Kita" />
+        </div>
+        <ul>
+          <li><a href="index.html">Tentang Kita</a></li>
+          <li><a href="mitra.html" class="active">Mitra</a></li>
+          <li><a href="cek-harga.html">Cek Harga</a></li>
+          <li><a href="visualisasi-data.html">Visualisasi Data</a></li>
+          <li><a href="berita-terkini.html">Berita Terkini</a></li>
+          <li><a href="masuk.html" class="masuk-button">Masuk</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Daftar Mitra Pasar</h2>
+      <?php include 'fetch_mitra.php'; ?>
+    </main>
+
+    <footer>
+      <p>Pasar Kita © 2024</p>
+    </footer>
+  </body>
+</html>
